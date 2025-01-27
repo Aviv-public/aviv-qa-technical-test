@@ -4,12 +4,9 @@ import { TestUtils } from '../utils/TestUtils';
 
 export class AuthPage {
   private page: Page;
-  // private testUtils: TestUtils;
-
 
   constructor(page: Page) {
     this.page = page;
-    // this.testUtils = new TestUtils();
   }
 
   async navigateToRegistration() {
