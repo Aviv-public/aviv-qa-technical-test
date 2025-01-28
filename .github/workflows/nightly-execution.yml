@@ -2,8 +2,8 @@ name: Nightly Execution
 
 on:
   schedule:
-    - cron: '0 2 * * 1-5' # Runs at 2:00 AM UTC every day
-  workflow_dispatch: # Allows manual triggering of the workflow
+    - cron: '0 2 * * 1-5'
+  workflow_dispatch:
 
 jobs:
   test:
