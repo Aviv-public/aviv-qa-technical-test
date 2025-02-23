@@ -138,6 +138,7 @@ aviv-qa-technical-test/
    - Centralized selectors
    - Reusable methods
    - Documented code
+   - Some functions in class pages were added but not removed during refactoring; they remain for potential future use.
 
 ## Continuous Integration
 
