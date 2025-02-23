@@ -1,0 +1,22 @@
+{
+    "validUser": {
+        "email": "test@example.com",
+        "password": "Test123!",
+        "role": "user"
+    },
+    "adminUser": {
+        "email": "admin@example.com",
+        "password": "Test123!",
+        "role": "admin"
+    },
+    "agentUser": {
+        "email": "agent@example.com",
+        "password": "Test123!",
+        "role": "agent"
+    },
+    "invalidUser": {
+        "email": "invalid@example.com",
+        "password": "wrongpassword",
+        "expectedError": "Invalid credentials"
+    }
+} 
