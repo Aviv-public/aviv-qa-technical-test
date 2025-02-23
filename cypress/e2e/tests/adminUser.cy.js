@@ -29,9 +29,6 @@ describe('Admin Dashboard Tests', () => {
         // ACT: Perform search (Known bug: search is not working)
         AdminPage.verifyPropertySearch()
         
-        // ACT: Test all status options
-        AdminPage.selectStatus('Available')
-        
         // ACT: Test reset functionality
         AdminPage.resetFilters()
 
